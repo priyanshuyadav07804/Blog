@@ -1,9 +1,16 @@
-
+import { BrowserRouter,Routes,Route } from "react-router-dom"
+import Register from './pages/Register'
 const App = () => {
   return (
-    <div className='flex bg-sla '>
-      
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Register/>}/>
+
+    </Routes>
+    </BrowserRouter>
+
+
+    
   )
 }
 
