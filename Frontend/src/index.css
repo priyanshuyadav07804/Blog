@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+
+.register{
+    background: linear-gradient(hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .5)), url(https://img.freepik.com/free-photo/workspace-with-office-supplies-top-view_144627-32488.jpg?w=740&t=st=1711309109~exp=1711309709~hmac=274f68d57490c390cd9975d013ab7c133d97ad7226ee0383bd414204cbf5afcb);
+    background-size: cover;
+    height: calc(100vh - 50px);
+}
+
+.login{
+    background: linear-gradient(hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .5)), url(https://img.freepik.com/free-photo/flat-lay-workplace-arrangement-purple-background-with-copy-space_23-2148404535.jpg?w=740&t=st=1711315854~exp=1711316454~hmac=f40459f360c6f603b5a2d4beb60e0a2945b9b2b5dd4fc63e4a09edc855db1f25);
+    background-size: cover;
+    height: calc(100vh - 50px);
+}
